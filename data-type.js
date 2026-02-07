@@ -27,3 +27,10 @@ console.log(typeof data);
 data = null;  
 console.log(typeof data);
 //output: object
+
+
+// non-primitive
+// object, array, function
+
+// primitive
+// number, string, boolean, undefined, null, symbol, bigint 
