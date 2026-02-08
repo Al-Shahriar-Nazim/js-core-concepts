@@ -16,7 +16,6 @@ console.log(result);
 console.log("after calling the function : ", x, y);
 // output: after calling the function :  10 20
 
-
 //non-primitive (object,array) are passed by reference
 const manik = { name: "manik", balance: 5000 };
 const roton = { name: "roton", balance: 2000 };
@@ -34,6 +33,8 @@ const balance = totalMoney(manik, roton);
 console.log("total balance is ", balance);
 // output: total balance is  1000
 
-console.log('after call :',manik,roton);
+console.log("after call :", manik, roton);
 // output: after call : { name: 'manik', balance: 0 } { name: 'roton', balance: 1000 }
 
+//Primitive type = Pass by Value
+// Object/Array/Function = Pass by Reference
